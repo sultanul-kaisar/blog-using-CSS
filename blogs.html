@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+
+        <header class="header">
+            <nav>
+                <img src="./assets/images/logo.png" width="100px" alt="logo">
+                <div class="header-right">
+                    <a href="./index.html">Home</a>
+                    <a class="active" href="./blogs.html">Blogs</a>
+                    <a href="./contact.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <div class="container mt-5">
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <div class="card">
+                        <h3>Search Blog</h3>
+                        <form class="mb-3">
+                            <label for="search">Search:</label>
+                            <input style="width: 90%;" type="text" id="search" name="search">
+                            <input class="float-end" style="border-radius: 25px; margin-right: 10px;" type="submit" value="Submit">
+                        </form>
+                    </div>
+                    <div class="card mt-4">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Nature</a></li>
+                            <li><a href="#">Sports</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="container">
+                            <h1 class="text-center mb-4">Latest Blog Posts</h1>
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <div class="card">
+                                    <img src="https://picsum.photos/300/200" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Blog Post 1</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu sapien vel ligula consequat aliquet sed nec eros. Donec et urna eget odio luctus pulvinar vel quis purus.</p>
+                                        <a href="./single-blog.html" class="btn btn-primary">Read More</a>
+                                    </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-4 mb-4">
+                                    <div class="card">
+                                    <img src="https://picsum.photos/300/200" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Blog Post 2</h5>
+                                        <p class="card-text">Phasellus euismod laoreet hendrerit. Sed a orci aliquet, malesuada magna a, sagittis libero. Nulla sed sem vel elit dictum semper. </p>
+                                        <a href="./single-blog.html" class="btn btn-primary">Read More</a>
+                                    </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-4 mb-4">
+                                    <div class="card">
+                                        <img src="https://picsum.photos/300/200" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blog Post 3</h5>
+                                            <p class="card-text">In posuere ut velit quisquisque. Fusce id efficitur urna, ac accumsan elit. Sed tempor dolor ac risus euismod gravida. Nulla interdum dictum magna, ut consequat lacus blandit vitae.</p>
+                                            <a href="./single-blog.html" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4 mb-4">
+                                    <div class="card">
+                                        <img src="https://picsum.photos/300/200" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blog Post 1</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet gravida risus. Donec mollis, nibh id blandit malesuada, sapien elit tincidunt odio, vel tempor libero elit ut massa.</p>
+                                            <a href="./single-blog.html" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4 mb-4">
+                                    <div class="card">
+                                        <img src="https://picsum.photos/300/200" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blog Post 2</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet gravida risus. Donec mollis, nibh id blandit malesuada, sapien elit tincidunt odio, vel tempor libero elit ut massa.</p>
+                                            <a href="./single-blog.html" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4 mb-4">
+                                    <div class="card">
+                                        <img src="https://picsum.photos/300/200" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blog Post 3</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet gravida risus. Donec mollis, nibh id blandit malesuada, sapien elit tincidunt odio, vel tempor libero elit ut massa.</p>
+                                            <a href="./single-blog.html" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-center">
+                                        <li class="page-item disabled">
+                                        <a class="page-link">Previous</a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-footer mt-5">
+            <footer class="py-5">
+              <div class="row">         
+                <div class="col-6 mb-3">
+                  <h5>Menu</h5>
+                  <ul>
+                    <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="./blogs.html" class="nav-link p-0 text-muted">Blogs</a></li>
+                    <li class="nav-item mb-2"><a href="./contact.html" class="nav-link p-0 text-muted">Contact</a></li>
+                  </ul>
+                </div> 
+          
+                <div class="col-md-5 offset-md-1 mb-3 float-end">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary-sm" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+              </div>
+            </footer>
+          </div>
+    
+      </body>
+    </html>
+    
